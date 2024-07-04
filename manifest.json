@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Prank",
+  "version": "1.0.0",
+  "description": "Ghost prank your friend",
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["<all_urls>"],
+      "run_at": "document_start"
+    }
+  ]
+}
